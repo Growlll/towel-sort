@@ -7,7 +7,6 @@ module.exports = function towelSort (matrix) {
     let result = []
     matrix.forEach((el, index) => {
         (index + 1) % 2 === 0 ? el.sort((a, b) => a < b).forEach(el => result.push(el)) : el.forEach(e => result.push(e))
-        return result
     })
     return result
 }
