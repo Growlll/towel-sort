@@ -1,3 +1,6 @@
+# files ignore
+src/dontWork.js
+
 # Logs
 logs
 *.log
